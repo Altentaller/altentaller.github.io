@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пластком</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="лого"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#service">Услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#works">Проекты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#price">Цены</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#steps">Этапы работы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Контакты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tel:+79130991747">+7 (913) 099-17-47</a>
+              </li>
+            </ul>
+          </div>
+
+          <div id="navbarMobile" class="navbarMobile">
+          <div class="container">
+            <div class="row">              
+                <ul class="navbarMobile__box">
+                  <li><a href="#service">Услуги</a></li>
+                  <li><a href="#works">Проекты</a></li>
+                  <li><a href="#price">Цены</a></li>
+                  <li><a href="#steps">Этапы работы</a></li>
+                  <li><a href="#footer">Контакты</a></li>
+                  <li><a href="tel:+79130991747">+7 (913) 099-17-47</a></li>
+                </ul>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </nav>
+
+    <section class="header"  id="home">
+        <div class="container px-4">
+            <div class="row header__wrapper gx-5 d-flex justify-content-center">
+                <div class="col-md-6 col-sm-12">
+                  <div class="header__title">Компания «ПластКом»</div>
+                  <h2 class="header__subtitle"><img src="img/icon/window.png" alt="Пластиковые окна"> Пластиковые окна</h2>
+                  <h2 class="header__subtitle"><img src="img/icon/balcony.png" alt="Остекление балконов"> Остекление балконов</h2>
+                  <h2 class="header__subtitle"><img src="img/icon/carpentry.png" alt="Отделка балконов"> Отделка балконов</h2>
+                </div>
+              
+                <div class="col-md-4 offset-md-2 col-sm-6  gx-5 mx-5 header__order">
+                      <div class="title title-red">Заявка на замер</div>
+                      <div class="title">Вызов на замер бесплатный!</div>                      
+                      <form id="order-header">
+                            <div class="mb-3 mt-3">
+                              <input class="form-control" name="tel" required placeholder="+7 (000) 000-00-00">
+                            </div>
+                            <div class="mb-3">
+                              <input type="text" class="form-control" name="name" required placeholder="Замер окна или балкона?">
+                            </div>
+
+                          <p>Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с политикой конфиденциальности </p>
+                          <div class="col-md-12 form-thanks" >
+                            Заявка отправлена!<br>Вам перезвонит наш менеджер
+                          </div>
+                          <button class="btn btn-primary" type="submit">Оставить заявку</button>
+                          
+                        </form>
+              </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="service" class="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h2 class="service__header">Комплекс услуг по установке и ремонту пластиковых окон, остеклению, утеплению и отделке балконов</h2>
+          </div>
+        </div>
+        
+        
+        <div class="row service__items">
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/window-2.png" alt="Остекление балконов">   
+            <div class="service__subtitle">Остекление балконов</div>   
+            <div class="service__decr">Распашные пластиковые конструкции, раздвижные алюминиевые с заводским полимерным покрытием</div>      
+          </div>
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/carpentry.png" alt="Внутренняя отделка">   
+            <div class="service__subtitle">Внутренняя отделка</div>   
+            <div class="service__decr">Отделка пластиковыми панелями и деревянной рейкой, настил пола на лагах с воздушной подушкой</div>      
+          </div>
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/tiles.png" alt="Внешняя отделка">   
+            <div class="service__subtitle">Внешняя отделка</div>   
+            <div class="service__decr">Отделка виниловым сайдингом марки «Docke» (Германия) - 14 цветовых оттенков.</div>      
+          </div>
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/balcony.png" alt="Утепление балкона">   
+            <div class="service__subtitle">Утепление балкона</div>   
+            <div class="service__decr">Специалисты компании произведут тщательные работы по утеплению вашего балкона</div>      
+          </div>
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/roof.png" alt="Установка крыши">   
+            <div class="service__subtitle">Установка крыши
+              на балкон</div>   
+            <div class="service__decr">Крыша из металлоконструкции с полимерным двусторонним покрытием</div>      
+          </div>
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/scheme.png" alt="Объединение балкона с комнатой">   
+            <div class="service__subtitle">Объединение балкона с комнатой</div>   
+            <div class="service__decr">Если необходимо сделать из балкона дополнительную комнату, нужно его утеплить</div>      
+          </div>
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/locker.png" alt="Изготовление шкафов для балконов">   
+            <div class="service__subtitle">Изготовление шкафов для балконов</div>   
+            <div class="service__decr">Сделаем шкаф для балкона или лоджии по индивидуальным размерам</div>      
+          </div>
+          <div class="col-md-3 mt-5">
+            <img src="img/icon/window.png" alt="Установка и ремонт пластиковых окон">   
+            <div class="service__subtitle">Установка и ремонт пластиковых окон</div>   
+            <div class="service__decr">Окна VEKA - установка под ключ с отделкой. Регулировка, замена уплотнителя, стеклопакетов, фурнитуры</div>      
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="works">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h2 class="title-bg-red">Наши выполненные проекты</h2>
+          </div>
+        </div>
+
+        <div class="row col-md-12 works__items">
+          <div class="col-md-4 col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/06.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/06.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Остекление и отделка балкона</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/22.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/22.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Остекление и отделка балкона</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4  col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/21.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/21.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Отделка балкона</p>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-md-4  col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/23.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/23.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Остекление и отделка балкона</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4  col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/24.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/24.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Остекление и отделка балкона</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4  col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/01.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/01.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Отделка балкона</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-4  col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/07.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/07.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Отделка балкона</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4  col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/09.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/09.jpg" alt="остекление и отделка балконов">
+                </div>
+                <p>Отделка балкона</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4  col-sm-6 mt-4">
+            <div class="works__item">
+              <a href="img/work/18.jpg" data-lightbox="works__items">
+                <div class="works__item-img">
+                  <img class="img-fluid" src="img/work/18.jpg" alt="шкафы для балконов">
+                </div>
+                <p>Шкаф для балкона</p>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-md-12 text-center mt-5">
+            <button type="button" class="btn btn-primary load-more">
+              Показать еще
+            </button>
+          </div>
+
+      </div>
+
+      </div>   
+    </section>
+
+    <section id="price" class="price">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h2 class="title-bg-red">Стоимость остекления и отделки</h2>            
+          </div>
+          <div class="price__subtitle">У нас индивидуальный подход к каждому проекту! Для расчета итоговой стоимости работы оставьте заявку на бесплатный замер.</div>
+        </div>
+
+        <div class="row price__items">
+          <div class="col-md-4 col-sm-12 mt-sm-5 mt-5">
+            <div class="price__item">
+              <div class="price__item-header">Пластиковые<br> окна</div>
+              <div class="price__item-coast">
+                <sup class="sup">от</sup> 3 550 <sub class="sub">руб.</sub>                
+              </div>
+              <div class="price__item-divider"></div>
+              <button type="button" class="btn btn-outline-secondary">Заказать замер</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-sm-5 mt-5">
+            <div class="price__popular">Лучшая цена!</div>
+            <div class="price__item price__item-popular">
+              <div class="price__item-header">Остекление<br> балконов </div>
+              <div class="price__item-coast">
+                <sup class="sup">от</sup> 5 800 <sub class="sub">руб.</sub>
+              </div>
+              <div class="price__item-divider"></div>
+              <button type="button" class="btn btn-outline-secondary btn-outline-secondary-red">Заказать замер</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-sm-5 mt-5">
+            <div class="price__item">
+              <div class="price__item-header">Внутренняя<br> отделка</div>
+              <div class="price__item-coast">
+                <sup class="sup">от</sup> 1 290 <sub class="sub">руб.</sub>                
+              </div>
+              <div class="price__item-divider"></div>
+              <button type="button" class="btn btn-outline-secondary">Заказать замер</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h2 class="cta__header">Заполните поля ниже и получите бесплатную консультацию!</h2>
+          </div>
+        </div>
+        <div class="row">
+          <form id="order-cta"  class="row col-md-12 mt-3 d-flex justify-content-center">
+            <div class="col-md-3 col-sm-12 mt-2">
+              <input type="text" class="form-control" name="name" required placeholder="Ваше имя">
+            </div>
+            <div class="col-md-3 col-sm-12 mt-2">
+              <input class="form-control" name="tel"  required placeholder="+7 (000) 000-00-00">
+            </div>
+            <div class="col-md-2 col-sm-12 mt-2">
+              <button type="submit" class="btn btn-outline-secondary btn-outline-secondary-red mb-3">Отправить</button>
+            </div>
+            <div class="row col-md-12 d-flex justify-content-center ">
+              <div class="form-thanks" >
+                Заявка отправлена!<br>Вам перезвонит наш менеджер
+              </div>
+            </div>
+          </form>
+        </div>
+          
+      </div>
+    </section>
+
+    <section id="steps" class="steps">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <h2 class="title-bg-red">Этапы нашей работы:</h2>            
+          </div>
+        </div>      
+
+        <div class="row steps__items">
+          <div class="col-md-6">
+            <ul>
+              <li>
+                <div class="steps__title">Замер</div>
+                
+                <div class="steps__descr">Выезд на замер по городу бесплатный, отдаленные районы (Новоалтайск, пригород) - 300 руб.</div>
+                </li>
+              <li>
+                <div class="steps__title">Подписание договора и предоплата</div>
+                
+                <div class="steps__descr">После подписания договора с обязательным внесением предоплаты мы приступаем к выполнению Вашего заказа.</div>
+                </li>
+              <li>
+                <div class="steps__title">Доставка и установка</div>
+                
+                <div class="steps__descr">Установка включает в себя разборку старых конструкций, установку новых окон. Установка «под ключ»: отделка внутренних, внешних откосов, установка подоконника.</div>
+                </li>
+              <li>
+                <div class="steps__title">Подписание акта выполненных работ</div>
+                
+                <div class="steps__descr">После выполнения монтажа подписывается акт выполненных работ (монтаж окон, остекление балкона и т.д.)</div>
+                </li>
+              <li>
+                <div class="steps__title">Окончательный расчет</div>
+                
+                <div class="steps__descr">После подписания акта выполненных работ производится доплата по договору. </div></li>
+            </ul>
+
+          </div>
+          <div class="col-md-6 steps__img" ></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">            
+              <h2 class="title">Компания «ПластКом»</h2>
+
+              <p>Мы занимаемся остеклением балконов и лоджий, а также установкой окон в Барнауле. Профессионализм и многолетний опыт позволяют делать эту работу быстро и качественно. Вы можете заказать установку пластиковых окон немецкой марки VEKA, под ключ с внутренней и наружной отделкой, а также воспользоваться дополнительным комплексом услуг: тонирование и бронирование стекол, кашировка пластика. Многообразие конструкций (от арочных до треугольных) и высококачественная фурнитура «МАКО» (Австрия) сделают вашу покупку еще удачнее и интереснее!</p>
+
+              <p>Законченный вид балкон приобретает благодаря внутренней отделке. Именно она придает вашим обновленным лоджиям или балкону привлекательность и исключительное соответствие общему интерьеру. Предлагаем отделку пластиковыми панелями и деревянной рейкой. Настил пола на лагах с воздушной подушкой сделает балкон более теплым.</p>
+
+              <p>Новый балкон стал комфортным и красивым, но, если есть желание и возможность сделать из балкона дополнительную комнату, необходимо его утеплить. Специалисты компании произведут тщательные работы по утеплению вашего балкона.</p>
+
+          </div>
+          <div class="col-md-6  offset-md-1 ">
+            <h2 class="title">Наши контакты</h2>
+            <p>Режим работы: с 9:00 до 21:00, без выходных</p>
+            <p><a href="tel:+79130991747">+7 (913) 099-17-47</a><br>
+            <a href="mailto:plast.kom22@yandex.ru">plast.kom22@yandex.ru</a></p>
+            <address>Барнаул, А. Петрова 222а, офис 10</address>
+
+            <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A434f47b9d4f8878e8232b30ee557de5ce47617b8810ec8f91cb53993ae78f1d4&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p><small>&copy; 2020-2021 «ПластКом» Остекление и отделка балконов в Барнауле. Пластиковые окна.<br>
+              Оставляя заявку на сайте, Вы даете свое согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</small> </p>
+          </div> 
+        </div>
+      </div> 
+    </section>
+
+    <div class="scrollup">☝️</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" />
+    
+
+    <!-- jQuery Mask Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script> 
+    <script src="js/main.js"></script>
+
+    
+
+</body>
+</html>
