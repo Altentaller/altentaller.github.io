@@ -81,7 +81,7 @@ $(document).ready(function(){
     validateForm('#consult form');
     validateForm('#order form');
 
-    $('input[name=tel]').mask("+7 (999) 999-99-99");//маска поля тел
+    $('input[name=tel]').mask("+7 (999) 999-99-99");
  
 
     $('form').submit(function(e){
